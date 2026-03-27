@@ -96,7 +96,7 @@ async def download_portfolio(username: str):
     if os.path.exists(zip_path):
         return FileResponse(
             path=zip_path, 
-            filename=f"{username}_portfolio.zip", 
+            filename="My_AI_Portfolio.zip", 
             media_type='application/zip'
         )
     raise HTTPException(status_code=404, detail="Portfolio not found or has been deleted.")
