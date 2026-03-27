@@ -1,0 +1,16 @@
+# Secret API Keys (DO NOT COMMIT)
+.env
+.env.*
+
+# Python environments and cache
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Generated application files
+generated_sites/
+*.zip
+
+# OS files
+.DS_Store
